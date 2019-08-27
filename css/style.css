@@ -2,32 +2,29 @@
     font-family: 'Neue Haas Grotesk Text Pro Roman';
     font-style: normal;
     font-weight: normal;
-    src: local('Neue Haas Grotesk Text Pro Roman'), url('../fonts/NHaasGroteskTXPro-55Rg.woff') format('woff');
-    }
-    
-    
-    @font-face {
+    src: local('Neue Haas Grotesk Text Pro Roman'), url("../fonts/NHaasGroteskTXPro-55Rg.woff") format('woff');
+}
+
+@font-face {
     font-family: 'Neue Haas Grotesk Text Pro Italic';
     font-style: normal;
     font-weight: normal;
-    src: local('Neue Haas Grotesk Text Pro Italic'), url('../fonts/NHaasGroteskTXPro-56It.woff') format('woff');
-    }
-    
-    
-    @font-face {
+    src: local('Neue Haas Grotesk Text Pro Italic'), url("../fonts/NHaasGroteskTXPro-56It.woff") format('woff');
+}
+
+@font-face {
     font-family: 'Neue Haas Grotesk Text Pro Bold';
     font-style: normal;
     font-weight: normal;
-    src: local('Neue Haas Grotesk Text Pro Bold'), url('../fonts/NHaasGroteskTXPro-75Bd.woff') format('woff');
-    }
-    
-    
-    @font-face {
+    src: local('Neue Haas Grotesk Text Pro Bold'), url("../fonts/NHaasGroteskTXPro-75Bd.woff") format('woff');
+}
+
+@font-face {
     font-family: 'Neue Haas Grotesk Text Pro Bold Italic';
     font-style: normal;
     font-weight: normal;
-    src: local('Neue Haas Grotesk Text Pro Bold Italic'), url('../fonts/NHaasGroteskTXPro-76BdIt.woff') format('woff');
-    }
+    src: local('Neue Haas Grotesk Text Pro Bold Italic'), url("../fonts/NHaasGroteskTXPro-76BdIt.woff") format('woff');
+}
 
 body {
     font-family: Neue Haas Grotesk Text Pro Roman, sans-serif;
@@ -42,13 +39,10 @@ body {
     -o-background-size: cover;
 }
 
-
-
-
 .img-fluid {
     max-width: 150px;
     height: auto;
-    
+
 }
 
 .header-text a {
@@ -68,7 +62,7 @@ body {
 .header-text {
     z-index: 97;
     font-size: 1.5rem;
-    letter-spa  cing: 0.06em;
+    letter-spa cing: 0.06em;
     line-height: 1.3;
     right: 0;
 
@@ -81,20 +75,17 @@ body {
     }
 }
 
-
 @media screen and (max-width: 600px) {
     .box {
         padding-bottom: 212px;
     }
 }
 
-
 .sosmed {
     width: 24px;
     height: 20px;
     display: block;
-    padding: 15px;
-    padding-top: 624px;
+    padding: 624px 15px 15px;
     cursor: pointer;
     color: white;
 }
@@ -105,9 +96,8 @@ body {
 }
 
 /* burger menu */
-.box{
-    
-}
+.box {
+    }
 
 .menuArea {
     z-index: 9999;
@@ -189,7 +179,7 @@ input {
     z-index: 9999;
 }
 
-.vertical-align{
+.vertical-align {
     padding-top: 324px;
 }
 
@@ -322,18 +312,16 @@ input {
     margin: 0;
     /* padding-left: 56px; */
 }
-.carousel-capt h2{
-    color: #2A2F67;
+.carousel-capt h2 {
+    color: #082539;
 }
 
-.text-small{
-    font-size: .5rem;
-    letter-spacing: .06em;
+.text-small {
+    font-size: 0.5rem;
+    letter-spacing: 0.06em;
     line-height: 1.3;
     display: block;
 }
-
-
 
 .carousel-indicators {
     justify-content: start;
@@ -347,8 +335,8 @@ input {
 }
 
 .btn-trailer span {
-    
-    color: #2A2F67;
+
+    color: #082539;
     text-align: left;
     font-size: 2em;
     display: block;
@@ -363,52 +351,49 @@ input {
     }
 }
 
-
-
 .btn-trailer button:hover {
-    opacity: .75;
+    opacity: 0.75;
 }
-
 
 .front {
     z-index: 999999999999999999999999!important;
 }
 
-.techday{
-    color: #2A2F67;
+.techday {
+    color: #082539;
 }
-.tech-day1{
+.tech-day1 {
     font-size: 8em;
-    line-height: .75;
-    color: #2A2F67;
+    line-height: 0.75;
+    color: #082539;
 }
-.tech-day2{
+.tech-day2 {
     color: white;
     font-size: 9em;
-    line-height: .75;
+    line-height: 0.75;
 }
 
-.tech-box{
-    color: #2A2F67
+.tech-box {
+    color: #082539;
 }
-.tech-head{
+.tech-head {
     background-color: white;
     line-height: 1.1;
     font-weight: 400;
     font-size: 1.4285714286rem;
 }
 
-.tech-capt{
+.tech-capt {
     font-size: 1rem;
 }
 
-.video-capt{
+.video-capt {
     position: absolute;
     bottom: 0;
     left: 0;
     color: #224455;
 }
-.video-yt{
+.video-yt {
     position: relative;
 }
 
@@ -418,12 +403,9 @@ input {
     height: 40px;
     line-height: 40px;
     text-align: center;
-    border-radius:40px 40px 40px 40px;
+    border-radius: 40px 40px 40px 40px;
     color: #224455;
-}   
-
-
-
+}
 
 @media screen and (max-width: 600px) {
     .video-capt i {
@@ -431,19 +413,19 @@ input {
     }
 }
 
-.video-capt a i{
+.video-capt a i {
     /* position: absolute; */
     transform: translateX(-40px);
     opacity: 0;
     transition: 1s;
 }
 
-.video-capt:hover a i{
+.video-capt:hover a i {
     transform: translateX(0);
     opacity: 1;
 }
 
-.tittle-s{
+.tittle-s {
     color: white;
     font-size: 6rem;
     justify-content: center;
@@ -454,57 +436,57 @@ input {
     }
 }
 
-.daftar-box{
+.daftar-box {
     width: 100%;
     height: auto;
     background-color: white;
-    color: #2A2F67; 
-    border-bottom: 1px solid #2A2F67; 
-    border-right: 1px solid #2A2F67;
-    transition: 1s; 
+    color: #082539;
+    border-bottom: 1px solid #082539;
+    border-right: 1px solid #082539;
+    transition: 1s;
 }
 
-.daftar-tgl-line{
+.daftar-tgl-line {
     height: 100%;
     width: 100%;
 }
-.daftar-tgl-line::before{
-    content : "";
+.daftar-tgl-line::before {
+    content: "";
     position: absolute;
-    right    : 0;
+    right: 0;
     z-index: 100;
-    top  : 0;
-    width  : 1px;
-    height   : 25%; 
-    background:#2A2F67;
+    top: 0;
+    width: 1px;
+    height: 25%;
+    background: #082539;
 }
-.daftar-tgl-line::after{
-    content : "";
+.daftar-tgl-line::after {
+    content: "";
     position: absolute;
-    right    : 0;
+    right: 0;
     z-index: 100;
     bottom: 0;
-    width  : 1px;
-    height   : 25%; 
-    background:#2A2F67;
+    width: 1px;
+    height: 25%;
+    background: #082539;
 }
 
-
-a:hover{
+a:hover {
     text-decoration: none;
 }
 
-a .daftar-box:hover{
+a .daftar-box:hover {
     text-decoration: none;
     color: blue;
 }
 
-.daftar-box i{
+.daftar-box i {
     transition: 1s;
     opacity: 0;
     transform: translateX(-20px);
 }
-.daftar-box:hover i{
+.daftar-box:hover i {
     opacity: 1;
     transform: translateX(0);
 }
+
